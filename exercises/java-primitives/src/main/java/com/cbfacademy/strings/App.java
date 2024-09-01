@@ -28,13 +28,7 @@ public class App {
     }
 
     public static String format(String item, int quantity, double price) {
-        // Write code to return a string formatted as follows: "Item: [item]. Price: £[amount]. Quantity: [quantity]". The date should be formatted as DD/MM/YYYY, e.g. 24/10/2023
-        item = "pencil";
-        quantity = 4;
-        price = 0.99;
-        String itemD = "Item".concat(":").concat(" ").concat(item);
-       // String itemDescription = "Item: /"item." Price: £/"price." Quantity: /"quantity".";
-
+        // TODO: Write code to return a string formatted as follows: "Item: [item]. Price: £[amount]. Quantity: [quantity]". The date should be formatted as DD/MM/YYYY, e.g. 24/10/2023
         throw new RuntimeException("Not implemented");
     }
 }
