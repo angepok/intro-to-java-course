@@ -1,13 +1,13 @@
 package com.cbfacademy;
 
 public class DiceGame {
-    private DicePlayer player1;
-    private DicePlayer player2;
+    private DicePlayer player1 = PlayerFactory.create();
+    private DicePlayer player2 = PlayerFactory.create();
     private int targetScore = 30;
 
     public DiceGame() {
-        player1 = new DicePlayer();
-        player2 = new DicePlayer();
+        //player1 = new DicePlayer();
+        //player2 = new DicePlayer();
         player1.setName("Player 1");
         player2.setName("Player 2");
     }
