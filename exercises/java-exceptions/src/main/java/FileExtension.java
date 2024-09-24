@@ -24,8 +24,6 @@ public class FileExtension {
 
 // map method to check file extension and map returned value
     Map<String, int> FileExtension(List<String> filenames){
-
-    //for (int i = 0; i < filenames.size(); i++) { 
         /* 
     if (filenames.getFileExtension(".java")) {
         return 1;

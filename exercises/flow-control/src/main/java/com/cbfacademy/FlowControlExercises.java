@@ -171,19 +171,37 @@ public class FlowControlExercises {
         //  - determines the sum of all the odd numbers in the list
         //  - returns a map with two entries:
         //      {"SumOfEvens", calculatedSumOfEvens}, {"SumOfOdds", calculatedSumOfOdds}
-        Map<String, Integer> sum = new Map<String,Integer>();
-         sum.size() = 100;
+        // creating hashmap with sixe of 100
+        Map<String, Integer> sum = new Map<String,Integer>(100);
+        
+        // sum of all even numbers
          for (int i = 0; i < sum.size(); i= i+2) {
+            int sumOfEven = 0;
             sumOfEven = sumOfEven + sum;
-            System.out.println();
+            System.out.println(sumOfEven);
          }
+        // sum of all odd numbers
+         for (int i = 0; i < sum.size(); i= i+2) {
+            int sumOfOdds = 0;
+            sumOfOdds = sumOfOdds + sum;
+            System.out.println(sumOfOdds);
+         }
+
+        // returning map with entries
     }
 
     public List<Integer> reverse(ArrayList<Integer> numbers) {
-        // TODO - Implement this method such that
+        //  Implement this method such that
         //  - it takes an array list of integers
         //  - it returns the list in reverse order
-        throw new RuntimeException("Not implemented");
+        
+        // loop through entries in arraylist
+        for (Integer integer : numbers) {
+            // printing out numbers in reverse
+            numbers = (numbers / 10) % 10;
+            System.out.print(numbers);
+        }
+        ;
     }
 
     public String getName() {

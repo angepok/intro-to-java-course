@@ -12,6 +12,16 @@ public class CollectionsExercises {
         //  - add 4 as the 3rd element of the list
         //  - invoke the method element() on the list and print the result on the screen
         //  - return the list
+        LinkedList<Integer> integers = new LinkedList<>();
+        integers.add(4);
+        integers.add(5);
+        integers.add(6);
+        integers.add(8);
+        integers.add(2);
+        integers.add(9);
+
+
+
         throw new RuntimeException("Not implemented");
     }
 
