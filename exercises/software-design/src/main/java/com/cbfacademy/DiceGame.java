@@ -1,8 +1,10 @@
 package com.cbfacademy;
 
-public class DiceGame {
-    private DicePlayer player1 = PlayerFactory.create();
-    private DicePlayer player2 = PlayerFactory.create();
+public class DiceGame implements Game {
+    ///String play();
+
+    private Player player1 = PlayerFactory.create();
+    private Player player2 = PlayerFactory.create();
     private int targetScore = 30;
 
     public DiceGame() {
